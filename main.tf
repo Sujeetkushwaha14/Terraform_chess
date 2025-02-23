@@ -40,8 +40,7 @@ resource "aws_instance" "example" {
               git clone https://github.com/Sujeetkushwaha14/Chess-app.git /var/www/html
               cd /var/www/html/AI_chess
               sudo docker-compose up
- 
- 
+  
               EOF
 
   tags = {
